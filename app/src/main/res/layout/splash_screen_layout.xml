@@ -28,7 +28,7 @@
 
     <ImageView
         android:layout_gravity="center"
-        android:layout_marginBottom="178dp"
+        android:layout_marginBottom="200dp"
         android:layout_width="150dp"
         android:layout_height="1dp"
         android:src="@drawable/circulo"/>
