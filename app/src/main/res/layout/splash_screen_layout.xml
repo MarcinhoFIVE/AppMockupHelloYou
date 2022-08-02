@@ -14,7 +14,7 @@
         android:textSize="60sp"
         android:text="Hello"
         android:textColor="@color/black"
-        android:fontFamily="@font/comfortaalight" />
+        android:fontFamily="@font/ralewaylight" />
 
     <TextView
         android:layout_gravity="center_horizontal"
@@ -24,7 +24,7 @@
         android:layout_marginTop="180dp"
         android:text="You"
         android:textColor="@color/black"
-        android:fontFamily="@font/comfortaabold" />
+        android:fontFamily="@font/ralewayextrabold" />
 
     <ImageView
         android:layout_gravity="center"
@@ -46,10 +46,11 @@
         android:textSize="20sp"
         android:layout_marginTop="250dp"
         android:textAlignment="center"
-        android:lineSpacingExtra="5dp"
+        android:lineSpacingExtra="0dp"
+        android:lineSpacingMultiplier="1"
         android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."
         android:textColor="@color/black"
-        android:fontFamily="@font/comfortaalight" />
+        android:fontFamily="@font/ralewaylight" />
 
 
     <ImageView
