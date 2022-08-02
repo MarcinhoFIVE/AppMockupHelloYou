@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartScreen">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:text="Mobile \nApp"
+        android:layout_marginBottom="150dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/comfortaasemibold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:lineSpacingExtra="5dp"
+        android:text="Mockup"
+        android:textColor="@color/black"
+        android:fontFamily="@font/comfortaalight" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="230dp"
+        android:layout_marginBottom="80dp"
+        android:layout_height="45dp"
+        android:text="Start"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
