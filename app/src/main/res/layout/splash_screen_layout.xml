@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textSize="60sp"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:fontFamily="@font/comfortaalight" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:layout_marginTop="180dp"
+        android:text="You"
+        android:textColor="@color/black"
+        android:fontFamily="@font/comfortaabold" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginBottom="178dp"
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:src="@drawable/circulo"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconssplash"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="250dp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="5dp"
+        spac
+        android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."
+        android:textColor="@color/black"
+        android:fontFamily="@font/comfortaalight" />
+
+
+    <ImageView
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="45dp"
+        android:layout_marginBottom="120dp"
+        android:layout_height="45dp"
+        android:background="@drawable/circulo"
+        android:src="@drawable/ic_baseline_arrow_forward"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
