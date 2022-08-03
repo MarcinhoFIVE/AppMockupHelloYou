@@ -40,6 +40,8 @@
         android:src="@drawable/iconssplash"/>
 
     <TextView
+        tools:text="@tools:sample/lorem/random"
+        android:lines="3"
         android:layout_width="250dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
@@ -51,7 +53,6 @@
         android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."
         android:textColor="@color/black"
         android:fontFamily="@font/ralewaylight" />
-
 
     <ImageView
         android:id="@+id/btnSplash"

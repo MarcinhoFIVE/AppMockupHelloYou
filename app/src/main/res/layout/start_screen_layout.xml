@@ -16,7 +16,8 @@
         android:lineSpacingMultiplier="0.8"
         android:layout_marginBottom="150dp"
         android:textColor="@color/black"
-        android:fontFamily="@font/ralewayextrabold" />
+        android:fontFamily="@font/ralewayextrabold"
+        android:layout_marginLeft="40dp" />
 
     <TextView
         android:layout_marginStart="40dp"
@@ -28,7 +29,8 @@
         android:lineSpacingExtra="5dp"
         android:text="Mockup"
         android:textColor="@color/black"
-        android:fontFamily="@font/ralewaymedium" />
+        android:fontFamily="@font/ralewaymedium"
+        android:layout_marginLeft="40dp" />
 
     <Button
         android:id="@+id/btnStart"
