@@ -28,16 +28,17 @@
 
     <ImageView
         android:layout_gravity="center"
-        android:layout_marginBottom="200dp"
-        android:layout_width="150dp"
+        android:layout_marginBottom="160dp"
+        android:layout_width="120dp"
         android:layout_height="1dp"
         android:src="@drawable/circulo"/>
 
     <ImageView
+        android:layout_width="400dp"
+        android:layout_height="85dp"
         android:layout_gravity="center"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
         android:src="@drawable/iconssplash"/>
+
 
     <TextView
         tools:text="@tools:sample/lorem/random"
@@ -58,7 +59,7 @@
         android:id="@+id/btnSplash"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_width="45dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="80dp"
         android:layout_height="45dp"
         android:background="@drawable/circulo"
         android:src="@drawable/ic_baseline_arrow_forward"/>
