@@ -35,9 +35,25 @@
 
     <ImageView
         android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/iconarvore"
+        android:layout_marginLeft="200dp"
+        />
+
+    <ImageView
+        android:layout_width="400dp"
         android:layout_height="85dp"
         android:layout_gravity="center"
-        android:src="@drawable/iconssplash"/>
+        android:src="@drawable/iconcalendar"
+        android:layout_marginRight="200dp"
+        />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:src="@drawable/iconflor"/>
 
 
     <TextView
